@@ -7,9 +7,9 @@ Loan Calculation: Allows users to input the desired loan amount and the number o
 CAPTCHA Integration: Adds a layer of security to prevent automated bots from accessing the calculator.
 Responsive Design: The website is fully responsive, ensuring a seamless experience on desktops, tablets, and mobile devices.
 Technologies Used
-HTML5: For structuring the content and creating the form elements.
-CSS3: For styling the website and making it visually appealing.
-JavaScript: For adding interactivity, including the loan calculation logic and CAPTCHA generation.
+HTML5: This is used to structure the content and create the form elements.
+CSS3: This is used to style the website and make it visually appealing.
+JavaScript: This is used to add interactivity, including the loan calculation logic and CAPTCHA generation.
 Getting Started
 Prerequisites
 To run this project locally, you need:
