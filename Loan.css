@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0; /* Ensure no margin */
+    background-image: url('https://pfst.cf2.poecdn.net/base/image/6b8d73d3c19bdcd1fd04aa41e16f95e5b86c8f263bda62dac26dd3a24a48a25f?w=1024&h=1024&pmaid=127632508');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.loan-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    margin: 0 auto; /* Center horizontally */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center vertically and horizontally */
+    text-align: center;
+}
+
+.loan-container h2 {
+    margin-bottom: 20px;
+}
+
+.loan-container label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+.loan-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.loan-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2459ca;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.loan-container button:hover {
+    background-color: #308f1d; /* Darker shade for hover effect */
+}
+
+.result p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
