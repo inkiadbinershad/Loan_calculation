@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Login</title>
+    <link rel="stylesheet" href="login.css"> <!-- Path to your CSS file -->
+    <script src="captcha.js" defer></script> <!-- Path to your JavaScript file -->
+</head>
+<body>
+    <div class="login-container">
+        <h2>Bank Login</h2>
+        <form id="loginForm" action="loan.html" method="get" class="login-form">
+            <label for="username">Account Holder Name:</label>
+            <input type="text" id="username" name="username" required placeholder="CAPITAL LETTERS">
+            
+            <label for="digit">Account Number:</label>
+            <input type="text" id="digit" name="digit" required placeholder="Enter 14-digit account number">
+
+            <!-- Captcha Section -->
+            <div class="captcha">
+                <label for="captcha-input">Enter Captcha</label>
+                <div class="preview"></div>
+                <div class="captcha-form">
+                    <input type="text" id="captcha-input" placeholder="Enter captcha text" required>
+                    <button type="button" class="captcha-refresh">
+                        <i class="fa fa-refresh"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- End Captcha Section -->
+            
+            <button type="submit" id="login-btn">Login</button>
+        </form>
+    </div>
+      <!-- Your Name in the Corner -->
+      <div class="footer-text">Created By: Inkiad Bin Ershad</div>
+</body>
+</html>
